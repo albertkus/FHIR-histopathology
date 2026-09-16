@@ -14,30 +14,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "DiagnosticReport/ExampleBiopsyReport"
-        },
-        "name": "ExampleBiopsyReport",
-        "description": "Test instance of a routine biopsy report",
-        "exampleCanonical": "https://lmb.lt/fhir/histopathology/StructureDefinition/generic-histopathology-report"
-      },
-      {
-        "reference": {
-          "reference": "Specimen/ExampleBiopsySpecimen"
-        },
-        "name": "ExampleBiopsySpecimen",
-        "description": "Test instance of a routine skin biopsy",
-        "exampleCanonical": "https://lmb.lt/fhir/histopathology/StructureDefinition/histopathology-specimen"
-      },
-      {
-        "reference": {
-          "reference": "Patient/ExamplePatient"
-        },
-        "name": "ExamplePatient",
-        "description": "Dummy patient to satisfy reference validation",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/generic-histopathology-report"
         },
         "name": "Generic Histopathology Diagnostic Report",

@@ -18,6 +18,6 @@ Id: histopathology-specimen
 Title: "Histopathology Specimen"
 Description: "Specimen profile capturing procedure and body site separately, supporting morphologic abnormalities."
 * collection MS
-* collection.procedure 1..1 MS
+* collection.method 1..1 MS
 * collection.bodySite 1..1 MS
 * collection.bodySite from HistopathologyBodySiteVS (preferred)

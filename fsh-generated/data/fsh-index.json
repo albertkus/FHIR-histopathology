@@ -1,29 +1,5 @@
 [
   {
-    "outputFile": "DiagnosticReport-ExampleBiopsyReport.json",
-    "fshName": "ExampleBiopsyReport",
-    "fshType": "Instance",
-    "fshFile": "instances.fsh",
-    "startLine": 9,
-    "endLine": 15
-  },
-  {
-    "outputFile": "Patient-ExamplePatient.json",
-    "fshName": "ExamplePatient",
-    "fshType": "Instance",
-    "fshFile": "instances.fsh",
-    "startLine": 17,
-    "endLine": 23
-  },
-  {
-    "outputFile": "Specimen-ExampleBiopsySpecimen.json",
-    "fshName": "ExampleBiopsySpecimen",
-    "fshType": "Instance",
-    "fshFile": "instances.fsh",
-    "startLine": 1,
-    "endLine": 7
-  },
-  {
     "outputFile": "StructureDefinition-generic-histopathology-report.json",
     "fshName": "GenericHistopathologyReport",
     "fshType": "Profile",
