@@ -17,7 +17,7 @@ Description: "Test instance of a routine biopsy report"
 Instance: ExamplePatient
 InstanceOf: Patient
 Description: "Dummy patient to satisfy reference validation"
-* name.family = "Pavardenis"
-* name.given = "Vardenis"
+* name.family = "Jonauskas"
+* name.given = "Jonas"
 * gender = #male
 * birthDate = "1980-01-01"
