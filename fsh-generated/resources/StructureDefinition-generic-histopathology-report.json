@@ -1,0 +1,70 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "generic-histopathology-report",
+  "url": "https://lmb.lt/fhir/histopathology/StructureDefinition/generic-histopathology-report",
+  "name": "GenericHistopathologyReport",
+  "title": "Generic Histopathology Diagnostic Report",
+  "status": "draft",
+  "description": "Generic FHIR profile covering routine histopathology reports in Lithuania.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DiagnosticReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DiagnosticReport.status",
+        "path": "DiagnosticReport.status",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code",
+        "path": "DiagnosticReport.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "60568-3",
+              "system": "http://loinc.org",
+              "display": "Pathology Synoptic report"
+            }
+          ]
+        }
+      },
+      {
+        "id": "DiagnosticReport.subject",
+        "path": "DiagnosticReport.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.specimen",
+        "path": "DiagnosticReport.specimen",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://lmb.lt/fhir/histopathology/StructureDefinition/histopathology-specimen"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.result",
+        "path": "DiagnosticReport.result",
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "outputFile": "DiagnosticReport-ExampleBiopsyReport.json",
+    "fshName": "ExampleBiopsyReport",
+    "fshType": "Instance",
+    "fshFile": "instances.fsh",
+    "startLine": 9,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Patient-ExamplePatient.json",
+    "fshName": "ExamplePatient",
+    "fshType": "Instance",
+    "fshFile": "instances.fsh",
+    "startLine": 17,
+    "endLine": 23
+  },
+  {
+    "outputFile": "Specimen-ExampleBiopsySpecimen.json",
+    "fshName": "ExampleBiopsySpecimen",
+    "fshType": "Instance",
+    "fshFile": "instances.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-generic-histopathology-report.json",
+    "fshName": "GenericHistopathologyReport",
+    "fshType": "Profile",
+    "fshFile": "profiles.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-histopathology-specimen.json",
+    "fshName": "HistopathologySpecimen",
+    "fshType": "Profile",
+    "fshFile": "profiles.fsh",
+    "startLine": 15,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-histopathology-body-site-vs.json",
+    "fshName": "HistopathologyBodySiteVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 1,
+    "endLine": 6
+  }
+]

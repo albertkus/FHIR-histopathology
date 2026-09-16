@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HistopathologyBodySiteVS",
+  "id": "histopathology-body-site-vs",
+  "title": "Histopathology Body Site and Morphology Value Set",
+  "description": "Allows both normal anatomical structures and morphologic abnormalities as valid sites.",
+  "url": "https://lmb.lt/fhir/histopathology/ValueSet/histopathology-body-site-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "442083009"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "49755003"
+          }
+        ]
+      }
+    ]
+  }
+}

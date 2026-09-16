@@ -1,0 +1,81 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "lt.medicinos.biblioteka.histopathology",
+  "url": "https://lmb.lt/fhir/histopathology/ImplementationGuide/lt.medicinos.biblioteka.histopathology",
+  "version": "0.1.0",
+  "name": "LithuanianHistopathologyIG",
+  "title": "Lithuanian Histopathology FHIR Implementation Guide",
+  "status": "draft",
+  "packageId": "lt.medicinos.biblioteka.histopathology",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "DiagnosticReport/ExampleBiopsyReport"
+        },
+        "name": "ExampleBiopsyReport",
+        "description": "Test instance of a routine biopsy report",
+        "exampleCanonical": "https://lmb.lt/fhir/histopathology/StructureDefinition/generic-histopathology-report"
+      },
+      {
+        "reference": {
+          "reference": "Specimen/ExampleBiopsySpecimen"
+        },
+        "name": "ExampleBiopsySpecimen",
+        "description": "Test instance of a routine skin biopsy",
+        "exampleCanonical": "https://lmb.lt/fhir/histopathology/StructureDefinition/histopathology-specimen"
+      },
+      {
+        "reference": {
+          "reference": "Patient/ExamplePatient"
+        },
+        "name": "ExamplePatient",
+        "description": "Dummy patient to satisfy reference validation",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/generic-histopathology-report"
+        },
+        "name": "Generic Histopathology Diagnostic Report",
+        "description": "Generic FHIR profile covering routine histopathology reports in Lithuania.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/histopathology-body-site-vs"
+        },
+        "name": "Histopathology Body Site and Morphology Value Set",
+        "description": "Allows both normal anatomical structures and morphologic abnormalities as valid sites.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/histopathology-specimen"
+        },
+        "name": "Histopathology Specimen",
+        "description": "Specimen profile capturing procedure and body site separately, supporting morphologic abnormalities.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2026"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

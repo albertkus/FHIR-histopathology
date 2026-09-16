@@ -1,0 +1,27 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "ExampleBiopsyReport",
+  "meta": {
+    "profile": [
+      "https://lmb.lt/fhir/histopathology/StructureDefinition/generic-histopathology-report"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "60568-3",
+        "system": "http://loinc.org",
+        "display": "Pathology Synoptic report"
+      }
+    ]
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "specimen": [
+    {
+      "reference": "Specimen/ExampleBiopsySpecimen"
+    }
+  ]
+}

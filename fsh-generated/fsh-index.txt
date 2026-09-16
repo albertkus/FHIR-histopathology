@@ -1,0 +1,7 @@
+Output File                                             Name                         Type      FSH File       Lines
+DiagnosticReport-ExampleBiopsyReport.json               ExampleBiopsyReport          Instance  instances.fsh  9 - 15
+Patient-ExamplePatient.json                             ExamplePatient               Instance  instances.fsh  17 - 23
+Specimen-ExampleBiopsySpecimen.json                     ExampleBiopsySpecimen        Instance  instances.fsh  1 - 7
+StructureDefinition-generic-histopathology-report.json  GenericHistopathologyReport  Profile   profiles.fsh   1 - 13
+StructureDefinition-histopathology-specimen.json        HistopathologySpecimen       Profile   profiles.fsh   15 - 23
+ValueSet-histopathology-body-site-vs.json               HistopathologyBodySiteVS     ValueSet  valuesets.fsh  1 - 6

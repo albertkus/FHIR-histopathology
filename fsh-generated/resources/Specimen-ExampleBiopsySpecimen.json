@@ -1,0 +1,30 @@
+{
+  "resourceType": "Specimen",
+  "id": "ExampleBiopsySpecimen",
+  "meta": {
+    "profile": [
+      "https://lmb.lt/fhir/histopathology/StructureDefinition/histopathology-specimen"
+    ]
+  },
+  "status": "available",
+  "type": {
+    "coding": [
+      {
+        "code": "309066003",
+        "system": "http://snomed.info/sct",
+        "display": "Skin biopsy specimen (specimen)"
+      }
+    ]
+  },
+  "collection": {
+    "bodySite": {
+      "coding": [
+        {
+          "code": "442083009",
+          "system": "http://snomed.info/sct",
+          "display": "Anatomical or acquired body structure (body structure)"
+        }
+      ]
+    }
+  }
+}
